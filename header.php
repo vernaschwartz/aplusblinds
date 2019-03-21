@@ -46,7 +46,7 @@
 </head>
 <body>
 <!-- Standard Bootstrap Navigation -->
-<nav class="navbar navbar-expand-md navbar-light bg-faded">
+<nav class="navbar navbar-expand-md  bg-faded">
 	<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 		<img src="http://localhost/a+blinds/wp-content/uploads/2019/03/apluslogo.png" class="img-fluid" style=" height: 80px; width: 140px; padding-left: 20px;" alt="">
 	</a>
