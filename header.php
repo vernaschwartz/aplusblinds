@@ -46,25 +46,23 @@
 </head>
 <body>
 <!-- Standard Bootstrap Navigation -->
-<nav class="navbar navbar-expand-md  bg-faded">
-	<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-		<img src="http://localhost/a+blinds/wp-content/uploads/2019/03/apluslogo.png" class="img-fluid" style=" height: 80px; width: 140px; padding-left: 20px;" alt="">
-	</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-		<?php
-		wp_nav_menu([
-			'theme_location'  => 'primary',
-			'menu'            => 'primary',
-			'container'       => 'div',
-			'container_id'    => 'bs4navbar',
-			'container_class' => 'collapse navbar-collapse',
-			'menu_id'         => false,
-			'menu_class'      => 'navbar-nav ml-auto',
-			'depth'           => 2,
-			'fallback_cb'     => 'bs4navwalker::fallback',
-			'walker'          => new bs4navwalker()
-		]);
-		?>
+<nav class="navbar navbar-expand-lg navbar-inverse fixed-top">
+    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" class="img-fluid"></a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <?php
+        wp_nav_menu([
+            'menu'            => 'primary',
+            'container'       => 'div',
+            'container_id'    => 'bs4navbar',
+            'container_class' => 'collapse navbar-collapse',
+            'menu_id'         => false,
+            'menu_class'      => 'navbar-nav pull-right',
+            'depth'           => 2,
+            'fallback_cb'     => 'bs4navwalker::fallback',
+            'walker'          => new bs4navwalker()
+        ]);
+    ?>
 </nav>
+

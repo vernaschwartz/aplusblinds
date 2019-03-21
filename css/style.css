@@ -8,7 +8,7 @@ a:hover{
 }
 
 .navbar-brand{
-    width: 10%;
+    width: 20%;
 }
 
 .dropdown-menu.show{
@@ -18,14 +18,21 @@ a:hover{
     border-radius: 0;
     border-top: 3px solid black;
 }
+.navbar{
+    margin-bottom: 0px;
+}
 
 .nav-item{
-    margin-right: 15px;
+    margin-left: 10px;
 }
 
 .nav-link{
     font-size: 18px;
     color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+    background: none;
 }
 
 [type=reset], [type=submit], button, html [type=button] {
