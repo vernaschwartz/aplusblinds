@@ -17,6 +17,11 @@ get_header();
                     <a href='tel://(317)698-5445'>(317) 698-5445</a>
                 </div>
                 <div class="col-md-8">
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+                    the_content();
+                    endwhile; else: ?>
+                    <p>Sorry, no posts matched your criteria.</p>
+                <?php endif; ?>
                 </div>
             </div>
         </div>
