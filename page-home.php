@@ -91,25 +91,25 @@ get_header();
                 <div class="features">
                     <div class="col-md-4 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/blinds.jpg">
+                            <img class="features-img" src="<?php bloginfo('template_directory'); ?>/images/blinds.jpg">
                             <p>Providing privacy, light control and color options with blinds...</p>
-                            <a href="#" class="btn btn-primary" style="border-color: #EC5538;" >View Blinds</a>
+                            <a href="http://aplus.hatchetdevelopment.com/blinds/" class="btn btn-primary" style="border-color: #EC5538;" >View Blinds</a>
                         </div>
                     </div>
                     <!--/.col-md-4-->
                     <div class="col-md-4 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/shutters.png">
+                            <img class="features-img" src="<?php bloginfo('template_directory'); ?>/images/shutters.png">
                             <p>Adding dimension and amazing style with shutters...</p>
-                            <a href="#" class="btn btn-primary" style="border-color: #EC5538;">View Shutters</a>
+                            <a href="http://aplus.hatchetdevelopment.com/shutters/" class="btn btn-primary" style="border-color: #EC5538;">View Shutters</a>
                         </div>
                     </div>
                     <!--/.col-md-4-->
                     <div class="col-md-4 col-sm-4 fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/shades.jpg">
+                            <img class="features-img" src="<?php bloginfo('template_directory'); ?>/images/shades.jpg">
                             <p>Offering light control, fabric and color, or control options with shades...</p>
-                            <a href="#" class="btn btn-primary" style="border-color: #EC5538;">View Shades</a>
+                            <a href="http://aplus.hatchetdevelopment.com/shades/" class="btn btn-primary" style="border-color: #EC5538;">View Shades</a>
                         </div>
                     </div>
                 </div>

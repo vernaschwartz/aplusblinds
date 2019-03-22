@@ -188,6 +188,11 @@ body .gform_title{
 #feature {
     text-align: center;
 }
+
+.features-img{
+    padding-bottom: 15px;
+}
+
 .btn{
     padding: 0 30px;
     line-height: 42px;
