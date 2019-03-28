@@ -10,7 +10,7 @@ get_header();
         <div class="container">
             <div class="row" >
                 <div class="col-md-7">
-                    <h1>Blinds, Shades, Shutters, Design and Installation</h1>
+                    <h1>Blinds, Shades, Shutters, Design, and Installation</h1>
 
                 </div>
             </div>
@@ -53,7 +53,7 @@ get_header();
     <!--End Content-->
 
     <!--Section-->
-    <section id="section" class="spaceb">
+    <section id="section" >
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -66,18 +66,6 @@ get_header();
         </div>
     </section>
     <!--End Section-->
-
-
-    <!--Product-->
-    <section id="product" style="background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(<?php bloginfo('template_directory'); ?>/images/productsimg.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-        <div class="container">
-            <div class="center">
-                <h2>Products</h2>
-            </div>
-        <!--/.container-->
-        </div>
-    </section>
-    <!--End Product-->
 
     <!--Feature-->
     <section id="feature" class="spacer">
@@ -93,7 +81,7 @@ get_header();
                         <div class="feature-wrap">
                             <img class="features-img" src="<?php bloginfo('template_directory'); ?>/images/blinds.jpg">
                             <p>Providing privacy, light control and color options with blinds...</p>
-                            <a href="http://aplus.hatchetdevelopment.com/blinds/" class="btn btn-primary" style="border-color: #EC5538;" >View Blinds</a>
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>blinds/" class="btn btn-primary" style="border-color: #EC5538;" >View Blinds</a>
                         </div>
                     </div>
                     <!--/.col-md-4-->
@@ -101,7 +89,7 @@ get_header();
                         <div class="feature-wrap">
                             <img class="features-img" src="<?php bloginfo('template_directory'); ?>/images/shutters.png">
                             <p>Adding dimension and amazing style with shutters...</p>
-                            <a href="http://aplus.hatchetdevelopment.com/shutters/" class="btn btn-primary" style="border-color: #EC5538;">View Shutters</a>
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>shutters/" class="btn btn-primary" style="border-color: #EC5538;">View Shutters</a>
                         </div>
                     </div>
                     <!--/.col-md-4-->
@@ -109,7 +97,7 @@ get_header();
                         <div class="feature-wrap">
                             <img class="features-img" src="<?php bloginfo('template_directory'); ?>/images/shades.jpg">
                             <p>Offering light control, fabric and color, or control options with shades...</p>
-                            <a href="http://aplus.hatchetdevelopment.com/shades/" class="btn btn-primary" style="border-color: #EC5538;">View Shades</a>
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>shades/" class="btn btn-primary" style="border-color: #EC5538;">View Shades</a>
                         </div>
                     </div>
                 </div>
@@ -121,14 +109,16 @@ get_header();
     </section>
     <!--End Feature-->
 
+
     <!--CTA-->
-    <section id="CTA" style="background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(<?php bloginfo('template_directory'); ?>/images/productsimg.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-        <div class="container">
-            <div class="center">
-                <h2>CTA</h2>
-            </div>
+    <section id="CTA" style="background-image:  linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(<?php bloginfo('template_directory'); ?>/images/productsimg.jpg); height: 250px; background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <div class="container-fluid">
+                <h2 >We've got you covered!</h2>
+                <p >Let's talk! Call Now at (317) 698-5445</p>
+                <a class="btn btn-primary " style="border-color: #EC5538;"  href="<?php echo esc_url( home_url( '/' ) ); ?>contact-us/">Schedule an Appointment</a>
         </div>
         <!--/.container-->
     </section>
     <!--End CTA-->
+
     <?php get_footer();?>

@@ -18,12 +18,11 @@
                 </div>
                 <div class="col-md-6">
                     <ul class="pull-right">
-                        <li><a href="http://aplus.hatchetdevelopment.com">Home</a></li>
-                        <li><a href="http://aplus.hatchetdevelopment.com/about-us/">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="http://aplus.hatchetdevelopment.com/contact-us/">Contact Us</a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>about-us/">About Us</a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-us/">Contact Us</a></li>
                     </ul>
-                    <address>160 W 44th St,<br />Indianapolis, IN 46208</address>
+                    <address style="margin-bottom:0px;">160 W 44th St,<br />Indianapolis, IN 46208</address>
                     <a href='tel://(317)698-5445'>(317) 698-5445</a>
                 </div>
             </div>

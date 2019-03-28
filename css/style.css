@@ -237,4 +237,9 @@ body .gform_title{
     text-align:center; 
     font-size: 50px;
 }
+#CTA p{
+    color: white; 
+    text-align:center; 
+    margin-bottom:0px;
+}
 /*End About Us Page*/
