@@ -81,7 +81,7 @@ get_header();
                         <div class="feature-wrap">
                             <img class="features-img" src="<?php bloginfo('template_directory'); ?>/images/blinds.jpg">
                             <p>Providing privacy, light control and color options with blinds...</p>
-                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>blinds/" class="btn btn-primary" style="border-color: #EC5538;" >View Blinds</a>
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>blinds/" class="btn btn-primary" style="border-color: #ea1f25;" >View Blinds</a>
                         </div>
                     </div>
                     <!--/.col-md-4-->
@@ -89,7 +89,7 @@ get_header();
                         <div class="feature-wrap">
                             <img class="features-img" src="<?php bloginfo('template_directory'); ?>/images/shutters.png">
                             <p>Adding dimension and amazing style with shutters...</p>
-                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>shutters/" class="btn btn-primary" style="border-color: #EC5538;">View Shutters</a>
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>shutters/" class="btn btn-primary" style="border-color: #ea1f25;">View Shutters</a>
                         </div>
                     </div>
                     <!--/.col-md-4-->
@@ -97,7 +97,7 @@ get_header();
                         <div class="feature-wrap">
                             <img class="features-img" src="<?php bloginfo('template_directory'); ?>/images/shades.jpg">
                             <p>Offering light control, fabric and color, or control options with shades...</p>
-                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>shades/" class="btn btn-primary" style="border-color: #EC5538;">View Shades</a>
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>shades/" class="btn btn-primary" style="border-color: #ea1f25;">View Shades</a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ get_header();
         <div class="container-fluid">
                 <h2 >We've got you covered!</h2>
                 <p >Let's talk! Call Now at (317) 698-5445</p>
-                <a class="btn btn-primary " style="border-color: #EC5538;"  href="<?php echo esc_url( home_url( '/' ) ); ?>contact-us/">Schedule an Appointment</a>
+                <a class="btn btn-primary " style="border-color: #ea1f25;"  href="<?php echo esc_url( home_url( '/' ) ); ?>contact-us/">Schedule an Appointment</a>
         </div>
         <!--/.container-->
     </section>

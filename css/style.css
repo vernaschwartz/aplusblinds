@@ -3,6 +3,7 @@ html, body{
     height: 100%;
 
 }
+
 a:hover{
     text-decoration: none;
 }
@@ -82,7 +83,7 @@ p {
 
 .button1{
     color: #FFFFFF;
-    background: #EC5538;
+    background: #ea1f25;
     font-size: 19px;
     letter-spacing: 1px;
     float: left;
@@ -98,7 +99,7 @@ p {
 /*Get Started*/
 .button2{
     color: #FFFFFF;
-    background: #EC5538;
+    background: #ea1f25;
     font-size: 19px;
     letter-spacing: 1px;
     float: left;
@@ -110,10 +111,7 @@ p {
     display: inline-flex;
     align-items: center; 
 }
-a:hover{
-    background: #494949;
-    color:#FFFFFF;
-}
+
 /*End Hero*/
 
 /*Gravity Form*/
@@ -130,14 +128,14 @@ a:hover{
 body .gform_wrapper .gform_footer input[type=submit] {
     padding: 0 30px;
     line-height: 42px;
-    background: #EC5538;
+    background: #ea1f25;
     color: #fff;
     border-radius: 4px;
     display: inline-block;
     font-size: 16px;
     margin-right: 10px;
-    border: 1px solid #EC5538;
-    border-color: #EC5538;
+    border: 1px solid #ea1f25;
+    border-color: #ea1f25;
     margin-bottom: 25px;
     letter-spacing: 1px;
     }
@@ -196,15 +194,15 @@ body .gform_title{
 .btn{
     padding: 0 30px;
     line-height: 42px;
-    background: #EC5538;
+    background: #ea1f25;
     color: #fff;
     border-radius: 4px;
     margin-top: 40px;
     display: inline-block;
     font-size: 16px;
     margin-right: 10px;
-    border: 1px solid #EC5538;
-    border-color: #EC5538;
+    border: 1px solid #ea1f25;
+    border-color: #ea1f25;
     margin-bottom: 25px;
     letter-spacing: 1px;
 }
