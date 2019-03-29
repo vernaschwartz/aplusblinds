@@ -20,12 +20,7 @@
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
-				<?php
-				underscoretheme_posted_on();
-				underscoretheme_posted_by();
-				?>
-			</div><!-- .entry-meta -->
+			
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
@@ -53,7 +48,5 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php underscoretheme_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+
 </article><!-- #post-<?php the_ID(); ?> -->
