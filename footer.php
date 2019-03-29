@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    &copy; <?php $thisYear = (int)date('Y'); echo $thisYear ; ?> <a target="_blank" href="http://aplus.hatchetdevelopment.com" title="A+ Blinds">A+ Blinds</a>
+                    &copy; <?php $thisYear = (int)date('Y'); echo $thisYear ; ?> <a target="_blank" href="<?php echo esc_url( home_url( '/' ) );?>" title="A+ Blinds">A+ Blinds</a>
                     <ul>
                         <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
                         <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>commercial/">Commercial</a></li>
