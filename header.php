@@ -46,7 +46,7 @@
 </head>
 <body>
 <!-- Standard Bootstrap Navigation -->
-<nav class="navbar navbar-expand-lg navbar-inverse fixed-top">
+<nav class="navbar navbar-expand-md navbar-inverse navbar-dark fixed-top">
     <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" class="img-fluid"></a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
