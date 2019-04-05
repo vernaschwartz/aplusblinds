@@ -241,3 +241,8 @@ body .gform_title{
     margin-bottom:0px;
 }
 /*End About Us Page*/
+
+
+.row:before, .row:after{
+	display: inline-block !important;
+}
