@@ -13,7 +13,7 @@
 <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     &copy; <?php $thisYear = (int)date('Y'); echo $thisYear ; ?> <a target="_blank" href="<?php echo esc_url( home_url( '/' ) );?>" title="A+ Blinds">A+ Blinds</a>
                     <ul>
                         <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
@@ -22,14 +22,18 @@
                         <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>blog/">Blog</a></li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <ul class="pull-right">
-                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>about-us/">About Us</a></li>
-                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-us/">Contact Us</a></li>
-                    </ul>
-                    <address style="margin-bottom:0px;">160 W 44th St,<br />Indianapolis, IN 46208</address>
+                <div class="col-md-4 text-center">
+                <address style="margin-bottom:0px; text-align:center;">160 W 44th St,<br />Indianapolis, IN 46208</address>
                     <a href='tel://(317)698-5445'>(317) 698-5445</a>
+                </div>
+                <div class="col-md-4">
+                    <ul class="pull-right social-list">
+                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>about-us/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-us/"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="tel://(317)698-5445"><i class="fas fa-phone"></i></a></li>
+                    </ul>
+                    
                 </div>
             </div>
         </div>

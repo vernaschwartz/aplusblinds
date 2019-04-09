@@ -14,7 +14,7 @@ get_header();
                 <div class="col-md-4">
                     <h2>Let's Talk!</h2>
                     <p>We'd love to hear about your next project, and how A+ Blinds can provide you with the perfect window treatment solution. Use the form to start the conversation, or give us a call using the number below.</p>
-                    <a href='tel://(317)698-5445'>(317) 698-5445</a>
+                    <h2><a href='tel://(317)698-5445'>(317) 698-5445</a></h2>
                 </div>
                 <div class="col-md-8">
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
