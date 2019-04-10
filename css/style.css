@@ -93,6 +93,18 @@ h2{
     margin: 0 0 20px;
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    #hero h1{
+        font-size: 38px;
+        margin-top: 90px;
+    }
+
+    #hero{
+        display: block;
+    }
+}
+
 #hero p{
     font-size: 18px;
     font-weight: 400;
@@ -255,6 +267,12 @@ body .gform_title{
     text-align:center; 
     font-size: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    #CTA h2{
+        font-size: 38px;
+    }
+}
 #CTA p{
     color: white; 
     text-align:center; 
@@ -269,4 +287,10 @@ body .gform_title{
 
 .social-list li i{
     font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+    footer .col-md-4 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
 }
