@@ -28,8 +28,8 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="pull-right social-list">
-                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>about-us/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.facebook.com/A-Blinds-128388337202341/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/james-valdez-57741263/"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-us/"><i class="fas fa-envelope"></i></a></li>
                         <li><a href="tel://(317)698-5445"><i class="fas fa-phone"></i></a></li>
                     </ul>

@@ -58,7 +58,7 @@
             'container_id'    => 'bs4navbar',
             'container_class' => 'collapse navbar-collapse',
             'menu_id'         => false,
-            'menu_class'      => 'navbar-nav pull-right',
+            'menu_class'      => 'navbar-nav',
             'depth'           => 2,
             'fallback_cb'     => 'bs4navwalker::fallback',
             'walker'          => new bs4navwalker()

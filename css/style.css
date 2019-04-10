@@ -12,6 +12,13 @@ a:hover{
     width: 20%;
 }
 
+@media screen and (max-width: 768px) {
+    .navbar-brand{
+        width: 40%;
+    }
+    
+}
+
 .dropdown-menu.show{
     right: 0;
     left: auto;
@@ -21,8 +28,17 @@ a:hover{
 }
 .navbar{
     margin-bottom: 0px;
+    border-radius: 0px;
 }
 
+.navbar-nav{
+    float: right;
+}
+@media screen and (max-width: 768px) {
+    .navbar-nav{
+        float: left;
+    }
+}
 .nav-item{
     margin-left: 10px;
 }
