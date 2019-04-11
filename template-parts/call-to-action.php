@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <h2 >We've got you covered!</h2>
             <p >Let's talk! Call Now at (317) 698-5445</p>
-            <a class="btn btn-primary " style="border-color: #ea1f25;"  href="<?php echo esc_url( home_url( '/' ) ); ?>contact-us/">Schedule an Appointment</a>
+            <a class="btn btn-primary " style="border-color: #ea1f25;"  href="<?php echo esc_url( home_url( '/' ) ); ?>contact-us/">Schedule a Free Consultation</a>
         </div>
         <!--/.container-->
     </section>
