@@ -54,6 +54,9 @@
     gtag('config', 'UA-17453796-1');
     </script>
 
+    <!-- Call Tracking Metrics -->
+    <script async src="//121351.tctm.co/t.js"></script>
+
 </head>
 <body>
 <!-- Standard Bootstrap Navigation -->
